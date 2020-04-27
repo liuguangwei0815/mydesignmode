@@ -14,7 +14,7 @@ public class CatalogCourse extends CatalogCompoment{
 	
 	private String name;
 	
-	List<CatalogCompoment> list = new LinkedList<>();
+	List<CatalogCompoment> list = new LinkedList<CatalogCompoment>();
 
 	public CatalogCourse(String name) {
 		this.name = name;
